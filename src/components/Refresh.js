@@ -44,7 +44,7 @@ class Refresh extends Component {
             } else {
                 this.setState({
                     previousTime: now,
-                    elapsedTime: this.state.elapsedTime + (now - this.state.previousTime)
+                    elapsedTime: this.state.elapsedTime + (now - this.state.previousTime) + 0.45
                 })
             }
         } else {
