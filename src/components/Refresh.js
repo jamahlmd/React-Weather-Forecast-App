@@ -44,6 +44,8 @@ class Refresh extends Component {
             } else {
                 this.setState({
                     previousTime: now,
+                    //Added half a second because I found that the tickinginterval didn't sync really well with the fetchdatainterval
+                    //To sync them better I think I had to keep this state in App.js
                     elapsedTime: this.state.elapsedTime + (now - this.state.previousTime) + 0.45
                 })
             }
