@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="recent"
+  style={
+    Object {
+      "paddingTop": "8px",
+    }
+  }
+>
+  <Button
+    block={false}
+    ghost={false}
+    key="London"
+    loading={false}
+    onClick={[Function]}
+    prefixCls="ant-btn"
+    size="small"
+    style={
+      Object {
+        "marginRight": "8px",
+        "textTransform": "capitalize",
+      }
+    }
+    type="primary"
+  >
+    London
+  </Button>
+  <Button
+    block={false}
+    ghost={false}
+    key="Prague"
+    loading={false}
+    onClick={[Function]}
+    prefixCls="ant-btn"
+    size="small"
+    style={
+      Object {
+        "marginRight": "8px",
+        "textTransform": "capitalize",
+      }
+    }
+    type="default"
+  >
+    Prague
+  </Button>
+</div>
+`;

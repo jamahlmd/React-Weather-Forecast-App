@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Refresh correctly 1`] = `
+<div
+  style={
+    Object {
+      "paddingTop": "3px",
+      "width": 270,
+    }
+  }
+>
+  Refresh in: 
+  30
+  <Progress
+    format={[Function]}
+    percent={9.999999974752427e-7}
+    prefixCls="ant-progress"
+    showInfo={true}
+    size="small"
+    trailColor="#f3f3f3"
+    type="line"
+  />
+</div>
+`;

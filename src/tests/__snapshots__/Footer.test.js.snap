@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Footer correctly 1`] = `
+<div>
+  <Row
+    gutter={0}
+    style={
+      Object {
+        "backgroundColor": "#ADD6FF",
+        "paddingBottom": "3px",
+        "paddingTop": "6px",
+      }
+    }
+  >
+    <Col
+      md={
+        Object {
+          "offset": 18,
+          "span": 6,
+        }
+      }
+      xs={
+        Object {
+          "offset": 14,
+          "span": 10,
+        }
+      }
+    >
+      <h5>
+        Test text
+      </h5>
+    </Col>
+  </Row>
+</div>
+`;
